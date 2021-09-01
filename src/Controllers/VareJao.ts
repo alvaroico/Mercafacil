@@ -1,11 +1,9 @@
 import { Request, Response, NextFunction } from "express";
 
 const CadastroTelefone = async (
-  req: Request,
-  res: Response,
-  next: NextFunction
+  request: Request, response: Response, next: NextFunction
 ) => {
-  res.send("VareJao");
+  response.send("VareJao");
 };
 
 export default {

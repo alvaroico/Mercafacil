@@ -1,11 +1,11 @@
 import { Request, Response, NextFunction } from "express";
 
 const CadastroTelefone = async (
-  req: Request,
-  res: Response,
+  request: Request,
+  response: Response,
   next: NextFunction
 ) => {
-  res.send("Macapá");
+  response.send("Macapá");
 };
 
 export default {
